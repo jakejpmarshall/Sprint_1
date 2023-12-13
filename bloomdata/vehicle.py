@@ -19,11 +19,11 @@ class Vehicle:
         return f'''{self.color}, {self.year} {self.make}
         {self.model} with {self.milage} miles'''
 
-
+'''
 if __name__ == "__main__":
     carl = Vehicle("Honda", "CR-V", 'blue', '2009', 175000)
     print(carl)
-
+'''
 
 # child class is more specific
 class Convertible(Vehicle):

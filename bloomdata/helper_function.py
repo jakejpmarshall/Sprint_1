@@ -55,6 +55,7 @@ def train_test_split(df, frac):
     test = df.drop(train.index).sample(frac=1)
     return train, test
 
+print(type(df))
 # print(train_test_split(df, 0.8))
 
 
